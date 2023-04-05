@@ -1,0 +1,155 @@
+.footer-columns{
+  display: flex;  
+  font-family:cursive;
+}
+
+.footer-column{
+  flex: 50%;
+  margin: 20px;  
+  font-family:cursive;
+}
+
+header, footer{
+  background-color: #666666;
+  padding: 10px;
+  font-family:cursive;
+}
+
+main {
+ padding: 10px;
+ background-color:#999999;
+ font-family:cursive;
+}
+
+.post {
+ background-color:#CCCCCC;
+ padding: 20px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ display:flex;
+ font-family:cursive;
+}
+
+.post img {
+ margin: 20px;
+}
+
+
+#menu1{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+font-family:cursive;	
+}
+
+
+#menu1 ul{
+	position: relative;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style: none;
+	font-family:cursive;
+}
+
+#menu1 > ul::after{
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+	content: " ";
+	font-family:cursive;
+}
+
+#menu1 ul li{
+	position: relative;
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+	font-family:cursive;
+}
+
+#menu1 ul li a{
+	display: block;
+	padding: 9px 25px 0px 25px;
+	font-size: 14px;
+	line-height: 1.3em;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 36px;
+	color:#000000 ;
+	box-sizing: border-box;
+font-family:cursive;	
+}
+#menu1 ul li ul{
+	position:absolute;
+	top:36px;
+	left:0px;
+	width:200px;
+	background:#5e8777;
+	display:none;
+	font-family:cursive;
+}
+
+#menu1 ul li:hover ul{
+	display:block;
+	font-family:cursive;
+}
+#menu1 ul li ul li{
+	float:none;
+	width:100%;
+	font-family:cursive;
+}
+
+#menu1 ul li ul li a{
+	display:block;
+	text-transform:none;
+	height:auto;
+	padding:7px 25px;
+	width:100%;
+	box-sizing:border-box;
+	border-top:1px solid #008888;
+	color:#000987;
+	font-family:cursive;
+}
+
+#menu1 ul li ul li:first-child{
+	border-top:0px;
+	font-family:cursive;
+}
+
+.post{
+	padding:20px;
+	font-family:cursive;
+	
+	
+}
+
+.post1{
+
+padding:20px;
+	font-family:cursive;
+
+	color:#004544;
+	border-style:double;
+	border-color:#006666;
+}
+.carousele{
+width:100%;
+margin:30px;
+background:#555555;
+top:0px;
+}
+.carousele-element{
+width:100%
+}
+.carousele-element p{
+font-family:cursive;
+
+}
